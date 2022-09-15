@@ -1,0 +1,68 @@
+html {
+    font-family: Verdana;
+}
+
+header {
+    text-align: center;
+    background-color: pink;
+    color: green;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0px;
+}
+
+.topnav {
+    background-color: bisque;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.topnav ul li {
+    display: inline-block;
+    width: 350px;
+}
+
+a:hover {
+    color: green;
+    background-color: yellow;
+}
+row:after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.column {
+    float: left;
+}
+.column.side {
+  background-color: lightgray;
+  color: purple;
+  width: 20%;
+}
+
+.column.middle {
+    background-color: lightcyan;
+    color: darkblue;
+    width: 60%;
+}
+
+img {
+    width: 30%;
+}
+
+footer {
+    background-color: orange;
+    text-align: center;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
